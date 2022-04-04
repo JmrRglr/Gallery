@@ -1,0 +1,160 @@
+body{
+    background-color: #333;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+
+}
+
+li, a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    cursor: pointer;    
+}
+
+.nav-link{
+    list-style: none;
+}
+
+.nav-link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-link li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-link li a:hover{
+    color: hsl(188, 43%, 36%);
+}
+p{
+    padding: 0;
+    margin: 0 30%;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #f0f8ff91;
+    
+}
+
+.content{
+    padding: 20px auto;
+    margin: 40px auto;
+    
+}
+.content img{
+    border-radius: 30px;
+}
+
+h2{
+    padding: auto;
+    margin: 0 auto;
+    color: hsl(188, 43%, 36%);
+    display: flex;    
+    justify-content: center;
+    font-size: 50px;   
+    
+}
+
+.content1{
+    padding: 20px 20px;
+    margin: 40px 200px;
+    display: flex;
+    background-color: #4f434323;
+    position: relative;
+    border-radius: 1rem;
+}
+.content1 p{
+    padding:0% auto;
+    margin: 20% 5%;
+    justify-content: space-between;  
+    
+}
+
+div img{
+    border-radius: 2rem;
+}
+
+.content2{
+    padding: 20px 20px;
+    margin: 40px 200px;
+    display: flex;
+    background-color: #4f434323;
+    position: relative;
+    border-radius: 1rem;
+}
+.content2 p{
+    padding:0% auto;
+    margin: 20% 5%;
+    justify-content: space-between;  
+    
+}
+
+.content3{
+    padding: 20px 20px;
+    margin: 40px 200px;
+    display: flex;
+    background-color: #4f434323;
+    position: relative;
+    border-radius: 1rem;
+}
+.content3 p{
+    padding:0% auto;
+    margin: 20% 5%;
+    justify-content: space-between;  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-footer {    
+    display: flex;
+    padding: 8px 20px;  
+    background: #2b2b2b;
+    color: #fff;   
+    align-items: center; 
+    justify-content: space-between; 
+    
+}
+
+
+
+
